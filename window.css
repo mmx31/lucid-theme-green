@@ -48,6 +48,7 @@
 	margin: 0px;
 	padding-top: 2px;
 	z-index: 1;
+        height: 22px;
 	background-image: url(./images/winmid.gif);
 }
 .wintitlebar {
