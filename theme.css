@@ -22,7 +22,7 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 	margin: 0px;
 	
 }
-#taskbarhider {
+.taskbarhider {
   width: 12px;
   z-index:101;
   height:35px; 
