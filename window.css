@@ -48,17 +48,13 @@
 	margin: 0px;
 	padding-top: 2px;
 	z-index: 1;
-        height: 22px;
+    height: 22px;
 	background-image: url(./images/winmid.gif);
-}
-.wintitlebar {
-	height: 22px;
 	cursor: default;
 	overflow: hidden;
 	vertical-align: middle;
 	color: white;
 	font-weight: bold;
-	/*margin: 2px 2px 2px 2px;*/
 }
 .winbody {
 	background-color: white;
