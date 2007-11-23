@@ -50,6 +50,7 @@
 	z-index: 1;
     height: 22px;
 	background-image: url(./images/winmid.gif);
+	background-repeat: no-repeat;
 	cursor: default;
 	overflow: hidden;
 	vertical-align: middle;
@@ -93,6 +94,7 @@
 .wininnerbody {
 	overflow: hidden;
 	position: absolute;
+	background-color: white;
 	top: 0px;
 	left: 0px;
 	right: 0px;
