@@ -50,7 +50,7 @@
 	z-index: 1;
     height: 22px;
 	background-image: url(./images/winmid.gif);
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	cursor: default;
 	overflow: hidden;
 	vertical-align: middle;
