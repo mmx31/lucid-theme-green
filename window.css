@@ -5,8 +5,6 @@
 	overflow: hidden;
 	top: 50px;
 	left: 50px;
-	/*right: auto;
-	bottom: auto;*/
 	position: absolute;
 	
 }
@@ -61,11 +59,12 @@
 	border-left: 1px solid gray;
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;
-	position: absolute;
-	top: 22px;
-	left: 1px;
-	right: 1px;
-	bottom: 1px;
+	position: relative;
+	width: auto;
+	height: 100%;
+}
+.win > .winbody {
+	margin-top: 0px;
 }
 .winrightcorner,
 .winleftcorner {
