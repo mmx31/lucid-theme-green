@@ -15,7 +15,7 @@
 	right: 4px;
 	padding: 3px;
 	z-index: 10;
-	width: 48px;
+	width: 50px;
 	white-space: nowrap;
 	text-align: right;
 	position: absolute;
@@ -40,15 +40,13 @@
 }
 .winhandle {
 	white-space: nowrap;
-	/*width: 100%;*/
-	position: absolute;
-	top: 0px;
-	left: 6px;
-	right: 6px;
+	width: auto;
+	position: relative;
 	margin: 0px;
+	padding: 0px;
 	padding-top: 2px;
 	z-index: 1;
-    height: 22px;
+	height: 22px;
 	background-image: url(./images/winmid.gif);
 	background-repeat: repeat-x;
 	cursor: default;
@@ -73,6 +71,7 @@
 .winleftcorner {
 	width: 6px;
 	height: 22px;
+	position: relative;
 }
 .winrightcorner {
 	background-image: url(./images/winright.gif);
@@ -93,10 +92,8 @@
 
 .wininnerbody {
 	overflow: hidden;
-	position: absolute;
+	position: relative;
 	background-color: white;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
+	height: 100%;
+	width: 100%;
 }
