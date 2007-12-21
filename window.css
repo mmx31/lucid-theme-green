@@ -36,6 +36,10 @@
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;
 }
+
+.win > .win-bmw {
+	top: 22px;
+}
 .win-tr,
 .win-tl {
 	height: 22px;
