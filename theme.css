@@ -84,12 +84,12 @@ html, body {
 	width: 8px;
 }
 /******************** Console ********************/
-#console {
+.console {
 	border: 1px solid gray;
 	background-color: black;
 	color: white;
 }
-#consoleinput {
+.consoleinput {
 	width: 90%;
 	height: 20px;
 	border: none;
