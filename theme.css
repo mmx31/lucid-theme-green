@@ -6,47 +6,10 @@ html, body {
 	font-family: sans-serif;
 }
 /******************** Taskbar ********************/
-#taskbar {
-  z-index:100;
-  height:35px;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
+.desktopPanel {
   background:url(./images/taskbar.gif) #f5f5f5;
-  opacity:0.9;
-  width: 100%;
-}
-#taskbar td,
-#taskbar tr,
-#taskbar table,
-#taskbar tbody
-{
-	border: 0px;
-	padding: 0px;
-	margin: 0px;
-	
-}
-.taskbarhider {
-  width: 12px;
-  z-index:101;
-  height:35px; 
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background:url(./images/icons/hide.gif) #f5f5f5;
-  opacity:0.9;
 }
 /******************** Window List ********************/
-#appbar {
-	width: 100%;
-	height: 27px;
-	background-color: transparent;
-	border:0px;
-	padding: 0px;
-	top: 0px;
-	overflow: hidden;
-}
-
 .taskBarItem {
 	display: inline;
 	background-image: url("./images/task.png");
