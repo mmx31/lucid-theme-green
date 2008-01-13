@@ -9,6 +9,9 @@ html, body {
 .desktopPanel {
   background:url(./images/taskbar.gif) #f5f5f5;
 }
+.desktopPanelTop {
+  background:url(./images/top_bar.png) #f5f5f5 repeat-x;
+}
 /******************** Window List ********************/
 .taskBarItem {
 	display: inline;
