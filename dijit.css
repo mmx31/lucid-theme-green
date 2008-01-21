@@ -1031,7 +1031,7 @@
 }
 
 .dijit .dijitCalendarIncrease {
-	background:url(images/arrowRight.png) no-repeat center center; 
+	background:url(dijit/arrowRight.png) no-repeat center center; 
 }
 .dj_ie6 .dijit .dijitCalendarIncrease {
 	background-image:url("dijit/arrowRight.gif"); 
@@ -1116,7 +1116,7 @@
 
 .dijit .dijitCalendarDisabledDate {
 	/* one or the other? */ 
-	/* background: url(images/noX.gif) no-repeat center center !important; */
+	/* background: url(dijit/noX.gif) no-repeat center center !important; */
 	text-decoration:line-through !important; 
 	cursor:default !important;  
 }
@@ -1445,10 +1445,10 @@
 .dijit .dojoDndAvatarHeader td	{padding-left: 20px; padding-right: 4px;}
 .dijit .dojoDndAvatarHeader	{background: #ccc;}
 .dijit .dojoDndAvatarItem		{background: #eee;}
-.dijit.dojoDndMove .dojoDndAvatarHeader	{background-image: url(images/dndNoMove.png); background-repeat: no-repeat;}
-.dijit.dojoDndCopy .dojoDndAvatarHeader	{background-image: url(images/dndNoCopy.png); background-repeat: no-repeat;}
-.dijit.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-image: url(images/dndMove.png); background-repeat: no-repeat;}
-.dijit.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-image: url(images/dndCopy.png); background-repeat: no-repeat;}
+.dijit.dojoDndMove .dojoDndAvatarHeader	{background-image: url(dijit/dndNoMove.png); background-repeat: no-repeat;}
+.dijit.dojoDndCopy .dojoDndAvatarHeader	{background-image: url(dijit/dndNoCopy.png); background-repeat: no-repeat;}
+.dijit.dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-image: url(dijit/dndMove.png); background-repeat: no-repeat;}
+.dijit.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-image: url(dijit/dndCopy.png); background-repeat: no-repeat;}
 
 .dijit .dijitContentPaneLoading {
 	background:url('images/loading.gif') no-repeat left center;
