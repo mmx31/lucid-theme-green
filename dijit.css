@@ -164,7 +164,7 @@
 }
 
 .dijitToolbarSeparator {
-	background: url('images/editor.gif');
+	background: url('dijit/editor.gif');
 	height: 18px;
 	width: 5px;
 	padding: 0px 1px 0px 1px;
@@ -172,7 +172,7 @@
 }
 
 .dijit .dijitToolbar .dijitToolbarSeparator {
-	background: url('images/editor.gif');
+	background: url('dijit/editor.gif');
 }
 
 /* ComboBox-icon-specific */
@@ -234,7 +234,7 @@
 		Otherwise the actual input element.
 	*/
 	background:#fff url("dijit/validationInputBg.png") repeat-x top left;
-	#background:#fff url('images/validationInputBg.gif') repeat-x top left; 
+	#background:#fff url('dijit/validationInputBg.gif') repeat-x top left; 
 	border:1px solid #9b9b9b;
 	line-height: normal;
 }
@@ -307,7 +307,7 @@
 	width: 16px;
 	height: 16px;
 	background-repeat: no-repeat;
-	background-image: url('images/warning.png');
+	background-image: url('dijit/warning.png');
 	visibility: hidden;
 }
 .dijit .dijitValidationIconText {
@@ -344,14 +344,14 @@
 .dijit .dijitToggleButton .dijitRadio,
 .dijit .dijitToggleButton .dijitCheckBoxIcon,
 .dijit .dijitToggleButton .dijitRadioIcon {
-	background-image: url('images/checkmarkNoBorder.gif');
+	background-image: url('dijit/checkmarkNoBorder.gif');
 }
 
 .dijit .dijitCheckBox,
 .dijit .dijitRadio,
 .dijit .dijitCheckBoxIcon,		/* inside a toggle button */
 .dijit .dijitRadioIcon	{		/* inside a toggle button */
-	background-image: url('images/checkmark.gif'); /* checkbox sprite image */
+	background-image: url('dijit/checkmark.gif'); /* checkbox sprite image */
 	background-repeat: no-repeat;
 	width: 16px;
 	height: 16px;
@@ -465,11 +465,11 @@
 	/* margin-top:4px;  */
 	width:16px; 
 	height:16px; 
-	background:url('images/arrowRight.png') no-repeat center center;
+	background:url('dijit/arrowRight.png') no-repeat center center;
 	display:block;
 }
 .dj_ie6 .dijit .dijitMenuExpandEnabled {
-	background-image:url('images/arrowRight.gif'); 
+	background-image:url('dijit/arrowRight.gif'); 
 }
 .dijit .dijitMenuExpandInner {
 	display:none;
@@ -505,7 +505,7 @@
 	float:right;
 }
 .dijit .dijitTitlePane .dijitClosed .dijitArrowNode {
-	background:url('images/arrowRight.png') no-repeat center center; 
+	background:url('dijit/arrowRight.png') no-repeat center center; 
 }
 
 .dijit .dijitTitlePaneFocused .dijitTitlePaneTextNode {
@@ -513,13 +513,13 @@
 }
 
 .dj_ie6 .dijit .dijitTitlePane .dijitClosed .dijitArrowNode {
-	background-image:url('images/arrowRight.gif');
+	background-image:url('dijit/arrowRight.gif');
 }
 .dijit .dijitTitlePane .dijitOpen .dijitArrowNode {
-	background:url('images/arrowDown.png') no-repeat center center; 
+	background:url('dijit/arrowDown.png') no-repeat center center; 
 }
 .dj_ie6 .dijit .dijitTitlePane .dijitOpen .dijitArrowNode {
-	background-image:url('images/arrowDown.gif'); 
+	background-image:url('dijit/arrowDown.gif'); 
 }
 .dijit .dijitTitlePane .dijitArrowNodeInner { 
 	visibility:hidden;
@@ -942,7 +942,7 @@
 /* Tree */
 
 .dijit .dijitTreeNode {
-    background-image : url('images/i.gif');
+    background-image : url('dijit/i.gif');
     background-position : top left;
     background-repeat : repeat-y;
     margin-left: 19px;
@@ -951,7 +951,7 @@
  
 /* left vertical line (grid) for all nodes */
 .dijit .dijitTreeIsLast {
-    background: url('images/i_half.gif') no-repeat;
+    background: url('dijit/i_half.gif') no-repeat;
 }
 
 .dijit .dijitTreeIsRoot {
@@ -991,19 +991,19 @@
 }
 
 .dijit .dijitTreeExpandoOpened {
-	background-image: url('images/treeExpand_minus.gif');
+	background-image: url('dijit/treeExpand_minus.gif');
 }
  
 .dijit .dijitTreeExpandoClosed {
-	background-image: url('images/treeExpand_plus.gif');
+	background-image: url('dijit/treeExpand_plus.gif');
 }
  
 .dijit .dijitTreeExpandoLeaf {
-	background-image: url('images/treeExpand_leaf.gif');
+	background-image: url('dijit/treeExpand_leaf.gif');
 }
 
 .dijit .dijitTreeExpandoLoading {
-	background-image: url('images/treeExpand_loading.gif');
+	background-image: url('dijit/treeExpand_loading.gif');
 }
 
 
@@ -1335,12 +1335,12 @@
 
 .dijit .dijitHorizontalSliderIncrementIcon,
 .dijit .dijitVerticalSliderIncrementIcon {
-	background:url('images/arrowUp.png') no-repeat center center;
+	background:url('dijit/arrowUp.png') no-repeat center center;
 	width:16px; height:16px;
 	cursor:pointer;
 }
 .dijit .dijitHorizontalSliderIncrementIcon {
-	background-image:url('images/arrowRight.png');
+	background-image:url('dijit/arrowRight.png');
 }
 
 .dijit .dijitHorizontalSliderDecrementIcon,
@@ -1348,9 +1348,9 @@
 	width:16px;
 	height:16px;
 	cursor:pointer; 
-	background:url('images/arrowDown.png') no-repeat center center;
+	background:url('dijit/arrowDown.png') no-repeat center center;
 }
-.dijit .dijitHorizontalSliderDecrementIcon { background-image:url('images/arrowLeft.png'); }
+.dijit .dijitHorizontalSliderDecrementIcon { background-image:url('dijit/arrowLeft.png'); }
 
 .dijit .dijitSliderButtonInner {
 	visibility:hidden;
@@ -1370,7 +1370,7 @@
 /**** ICONS *****/
 
 .dijit .dijitEditorIcon {
-	background-image: url('images/editor.gif'); /* editor icons sprite image */
+	background-image: url('dijit/editor.gif'); /* editor icons sprite image */
 	background-repeat: no-repeat; 
 	width: 18px;
 	height: 18px;
@@ -1451,11 +1451,11 @@
 .dijit.dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader	{background-image: url(dijit/dndCopy.png); background-repeat: no-repeat;}
 
 .dijit .dijitContentPaneLoading {
-	background:url('images/loading.gif') no-repeat left center;
+	background:url('dijit/loading.gif') no-repeat left center;
 	padding-left:25px; 
 }
 
 .dijit .dijitContentPaneError {
-	background:url('images/warning.png') no-repeat left center;
+	background:url('dijit/warning.png') no-repeat left center;
 	padding-left:25px; 
 }
