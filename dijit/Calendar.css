@@ -1,0 +1,154 @@
+/* Calendar*/
+	
+.themed .dijitCalendarIncrementControl {
+	/* next/prev month buttons */
+	width:15px;
+	height:15px;
+
+}
+.dj_ie6 .themed .dijitCalendarIncrementControl {
+	padding:.1em;
+	font-size:.1em;
+}
+
+.themed .dijitCalendarIncreaseInner,
+.themed .dijitCalendarDecreaseInner {
+	visibility:hidden;
+}
+
+.themed .dijitCalendarDecrease {
+	background:url("images/spriteRoundedIconsSmall.png") no-repeat top left;
+}
+.dj_ie6 .themed .dijitCalendarDecrease {
+	background:url("images/spriteRoundedIconsSmall.gif") no-repeat top left;
+}
+
+.themed .dijitCalendarIncrease {
+	background:url("images/spriteRoundedIconsSmall.png") no-repeat -30px top;
+}
+.dj_ie6 .themed .dijitCalendarIncrease {
+	background:url("images/spriteRoundedIconsSmall.gif") no-repeat -30px top;
+}
+
+.themed table.dijitCalendarContainer {
+	font-size: 100%;
+	border-spacing: 0;
+	border-collapse: separate;
+	border: 1px solid #ccc;
+	margin: 0;
+}
+
+.themed .dijitCalendarMonthContainer th {
+	/* month header cell */
+	background:#d3d3d3 url("images/titleBar.png") repeat-x top;
+	padding-top:.3em;
+	padding-bottom:.2em;
+	text-align:center;
+}
+.dj_ie6 .themed .dijitCalendarMonthContainer th {
+	padding-top:.1em;
+	padding-bottom:0em;
+}
+
+.themed .dijitCalendarDayLabelTemplate {
+	/* day of week labels */
+	background:white url("images/calendarDayLabel.png") repeat-x bottom;
+	font-weight:normal;
+	padding-top:.15em;
+	padding-bottom:0em;
+	border-top: 1px solid #eeeeee;
+	color:#293a4b;
+	text-align:center;
+}
+
+.themed .dijitCalendarBodyContainer {
+	border-bottom: 1px solid #eeeeee;	
+}
+
+.themed .dijitCalendarMonthLabel {
+	color:#293a4b;
+	font-weight: bold;
+}
+
+.dj_ie7 .themed .dijitCalendarDateTemplate,
+.dj_ie6 .themed .dijitCalendarDateTemplate {
+	font-size: 0.8em;
+}
+
+.themed .dijitCalendarDateTemplate {
+	/* style for each day cell */
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.3em 0.3em 0.05em 0.3em;
+	letter-spacing: 1px;
+}
+
+
+.themed .dijitCalendarPreviousMonth,
+.themed .dijitCalendarNextMonth 		{
+	/* days that are part of the previous or next month */
+	color:#999999;
+	background-color:#f8f8f8 !important;
+}
+
+.themed .dijitCalendarPreviousMonthDisabled,
+.themed .dijitCalendarNextMonthDisabled	{
+	/* days that are part of the previous or next month - disabled*/
+	background-color:#a4a5a6 !important;
+}
+
+.themed .dijitCalendarCurrentMonth {
+	/* days that are part of this month */
+	background-color:white !important;
+}
+
+.themed .dijitCalendarCurrentMonthDisabled {
+	/* days that are part of this month - disabled */	
+	background-color:#bbbbbc !important;
+}
+
+.themed .dijitCalendarCurrentDate {
+	/* cell for today's date */
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.themed .dijitCalendarCurrentDate {
+	/* cell for today's date */
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.themed .dijitCalendarSelectedDate {
+	/* cell for the selected date */
+	background-color:#bbc4d0 !important;
+	color:black !important;
+}
+.themed .dijitCalendarYearContainer {
+	/* footer of the table that contains the year display/selector */
+	background:white url("images/calendarYearLabel.png") repeat-x bottom;
+	border-top:1px solid #ccc;
+}
+
+.themed .dijitCalendarYearLabel {
+	/* container for all of 3 year labels */
+	margin:0;
+	padding:0.4em 0 0.25em 0;
+	text-align:center;
+}
+
+.themed .dijitCalendarSelectedYear {
+	/* label for selected year */
+	color:black;
+	padding:0.2em;
+	padding-bottom:0.1em;
+	background-color:#bbc4d0 !important;
+}
+
+.themed .dijitCalendarNextYear,
+.themed .dijitCalendarPreviousYear {
+	/* label for next/prev years */
+	color:black !important;
+	font-weight:normal;
+}
