@@ -1,9 +1,9 @@
-.themed .dijitToggleButton .dijitCheckBoxIcon {
+.dijit .dijitToggleButton .dijitCheckBoxIcon {
 	background-image: url('../images/checkmarkNoBorder.gif');
 }
 
-.themed .dijitCheckBox,
-.themed .dijitCheckBoxIcon		/* inside a toggle button */	{
+.dijit .dijitCheckBox,
+.dijit .dijitCheckBoxIcon		/* inside a toggle button */	{
 	background-image: url('../images/checkmark.gif'); /* checkbox sprite image */
 	background-repeat: no-repeat;
 	width: 16px;
@@ -12,36 +12,36 @@
 	padding: 0;
 }
 
-.themed .dijitCheckBox,
-.themed .dijitToggleButton .dijitCheckBoxIcon {
+.dijit .dijitCheckBox,
+.dijit .dijitToggleButton .dijitCheckBoxIcon {
 	/* unchecked */
 	background-position: -16px;
 }
 
-.themed .dijitCheckBoxChecked,
-.themed .dijitToggleButtonChecked .dijitCheckBoxIcon {
+.dijit .dijitCheckBoxChecked,
+.dijit .dijitToggleButtonChecked .dijitCheckBoxIcon {
 	/* checked */
 	background-position: 0px;
 }
 
-.themed .dijitCheckBoxDisabled {
+.dijit .dijitCheckBoxDisabled {
 	/* disabled */
 	background-position: -48px;
 }
 
-.themed .dijitCheckBoxCheckedDisabled {
+.dijit .dijitCheckBoxCheckedDisabled {
 	/* disabled but checked */
 	background-position: -32px;
 }
 
-.themed .dijitCheckBoxHover,
-.themed .dijitCheckBoxFocused {
+.dijit .dijitCheckBoxHover,
+.dijit .dijitCheckBoxFocused {
 	/* hovering over an unchecked enabled checkbox */
 	background-position: -80px;
 }
 
-.themed .dijitCheckBoxCheckedHover,
-.themed .dijitCheckBoxCheckedFocused {
+.dijit .dijitCheckBoxCheckedHover,
+.dijit .dijitCheckBoxCheckedFocused {
 	/* hovering over a checked enabled checkbox */
 	background-position: -64px;
 }

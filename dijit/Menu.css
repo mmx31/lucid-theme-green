@@ -1,54 +1,54 @@
-.themed .dijitMenu {
+.dijit .dijitMenu {
 	border: 1px solid #7eabcd;
 	margin: 0px;
 	padding: 0px;
 }
 
-.themed .dijitMenuItem {
+.dijit .dijitMenuItem {
 	background-color: #f7f7f7;
 	font: menu;
 	margin: 0;
 }
-.themed .dijitMenuPreviousButton, .themed .dijitMenuNextButton {
+.dijit .dijitMenuPreviousButton, .dijit .dijitMenuNextButton {
 	font-style: italic;
 }
-.themed .dijitMenuItem td {
+.dijit .dijitMenuItem td {
 	padding:2px;
 }
 
-.themed .dijitMenuItemHover {
+.dijit .dijitMenuItemHover {
 	background-color: #60a1ea;
 	color:#fff;
 }
 
-.themed .dijitMenuItemIcon {
+.dijit .dijitMenuItemIcon {
 	width: 16px;
 	height: 16px;
 }
 
-.themed .dijitMenuExpand {
+.dijit .dijitMenuExpand {
 	display:none;
 }
-.themed .dijitMenuExpandEnabled {
+.dijit .dijitMenuExpandEnabled {
 	width:16px;
 	height:16px;
 	background:url('images/arrowRight.gif') no-repeat center center;
 	display:block;
 }
 
-.themed .dijitMenuExpandInner {
+.dijit .dijitMenuExpandInner {
 	display:none;
 }
 
-.themed .dijitMenuSeparator {
+.dijit .dijitMenuSeparator {
 	background-color: #f7f7f7;
 }
 
 /* separator can be two pixels -- set border of either one to 0px to have only one */
-.themed .dijitMenuSeparatorTop {
+.dijit .dijitMenuSeparatorTop {
 	border-bottom: 1px solid #9b9b9b;
 }
 
-.themed .dijitMenuSeparatorBottom {
+.dijit .dijitMenuSeparatorBottom {
 	border-top: 1px solid #e8e8e8;
 }

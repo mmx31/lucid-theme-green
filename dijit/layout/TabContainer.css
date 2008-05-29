@@ -1,7 +1,7 @@
 
 /* Tabs */
 
-.themed .dijitTabPaneWrapper {
+.dijit .dijitTabPaneWrapper {
 	/*
 	overflow: hidden;
 	*/
@@ -9,7 +9,7 @@
 	border:1px solid #ccc;
 }
 
-.themed .dijitTab {
+.dijit .dijitTab {
 	line-height:normal;
 	margin-right:5px;	/* space between one tab and the next in top/bottom mode */
 	padding:0px;
@@ -17,20 +17,20 @@
 	background:#e2e2e2 url("../images/tabEnabled.png") repeat-x;
 }
 
-.themed .dijitAlignLeft .dijitTab,
-.themed .dijitAlignRight .dijitTab {
+.dijit .dijitAlignLeft .dijitTab,
+.dijit .dijitAlignRight .dijitTab {
 	margin-right:0px;
 	margin-bottom:5px;	/* space between one tab and the next in left/right mode */
 }
 
-.themed .dijitTabInnerDiv {
+.dijit .dijitTabInnerDiv {
 	padding:6px 10px 4px 10px;
 	border-left:1px solid #fff;
 	border-bottom:1px solid #fff;
 }
 
-.themed .dijitTabHover,
-.themed .dijitTabCloseButtonHover {
+.dijit .dijitTabHover,
+.dijit .dijitTabCloseButtonHover {
 	color: #243C5F;
 	border-top-color:#92a0b3;
 	border-left-color:#92a0b3;
@@ -38,13 +38,13 @@
 	background:#e2e2e2 url("../images/tabHover.png") repeat-x bottom;
 }
 
-.dj_ie6 .themed .dijitTabHover,
-.dj_ie6 .themed .dijitTabCloseButtonHover {
+.dj_ie6 .dijit .dijitTabHover,
+.dj_ie6 .dijit .dijitTabCloseButtonHover {
 	background-image: url("../images/tabHover.gif");
 }
 
-.themed .dijitTabChecked,
-.themed .dijitTabCloseButtonChecked
+.dijit .dijitTabChecked,
+.dijit .dijitTabCloseButtonChecked
 {
 	/* the selected tab (with or without hover) */
 	background-color:#fff;
@@ -53,40 +53,40 @@
 }
 
 /* make the active tab white on the side next to the content pane */
-.themed .dijitAlignTop .dijitTabChecked,
-.themed .dijitAlignTop .dijitTabCloseButtonChecked
+.dijit .dijitAlignTop .dijitTabChecked,
+.dijit .dijitAlignTop .dijitTabCloseButtonChecked
 {
 	border-bottom-color:white;
 	vertical-align:bottom;
 }
 
-.themed .dijitAlignBottom .dijitTabChecked,
-.themed .dijitAlignBottom .dijitTabCloseButtonChecked
+.dijit .dijitAlignBottom .dijitTabChecked,
+.dijit .dijitAlignBottom .dijitTabCloseButtonChecked
 {
 	border-top-color:white;
 	-moz-border-radius:2px 2px 0px 0px;	/* eliminate some border detritrus on moz */
 }
 
-.themed .dijitAlignLeft .dijitTabChecked,
-.themed .dijitAlignLeft .dijitTabCloseButtonChecked
+.dijit .dijitAlignLeft .dijitTabChecked,
+.dijit .dijitAlignLeft .dijitTabCloseButtonChecked
 {
 	border-right-color:white;
 }
 
-.themed .dijitAlignRight .dijitTabChecked,
-.themed .dijitAlignRight .dijitTabCloseButtonChecked
+.dijit .dijitAlignRight .dijitTabChecked,
+.dijit .dijitAlignRight .dijitTabCloseButtonChecked
 {
 	border-left-color:white;
 }
 
 
 /* make space for a positioned close button */
-.themed .dijitTab .dijitClosable {
+.dijit .dijitTab .dijitClosable {
 	position: relative;
 	padding:6px 20px 4px 10px;
 }
 
-.themed .dijitTab .dijitClosable .closeImage {
+.dijit .dijitTab .dijitClosable .closeImage {
 	position:absolute;
 	top: 7px;
 	right: 3px;
@@ -100,21 +100,21 @@
 	background-image:url("../images/tabClose.gif");
 }
 
-.themed .dijitTabCloseButton .dijitClosable .closeImage {
+.dijit .dijitTabCloseButton .dijitClosable .closeImage {
 	background-image : url("../images/tabClose.png");
 }
-.dj_ie6 .themed .dijitTabCloseButton .dijitClosable .closeImage {
+.dj_ie6 .dijit .dijitTabCloseButton .dijitClosable .closeImage {
 	background-image : url("../images/tabClose.gif");
 }
 
-.themed .dijitTabCloseButtonHover .dijitClosable .closeImage {
+.dijit .dijitTabCloseButtonHover .dijitClosable .closeImage {
 	background-image : url("../images/tabCloseHover.png");
 }
-.dj_ie6 .themed .dijitTabCloseButtonHover .dijitClosable .closeImage {
+.dj_ie6 .dijit .dijitTabCloseButtonHover .dijitClosable .closeImage {
 	background-image : url("../images/tabCloseHover.gif");
 }
 
-.themed .dijitAlignLeft .dijitTab .dijitClosable {
+.dijit .dijitAlignLeft .dijitTab .dijitClosable {
 	padding:6px 10px 4px 20px;
 }
 
@@ -122,17 +122,17 @@
     We cant force hasLayout as that blows out the shrink wrapped tabs
     ..so we shim in the closeImage position properties instead
 */
-.dj_ie6 .themed .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
+.dj_ie6 .dijit .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
 	left:-20px;
 }
 
-.themed .dijitAlignBottom .dijitTab .dijitClosable .closeImage {
+.dijit .dijitAlignBottom .dijitTab .dijitClosable .closeImage {
 	top: auto;
 	bottom: 7px;
 	right: 3px;
 }
 
-.themed .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
+.dijit .dijitAlignLeft .dijitTab .dijitClosable .closeImage {
 	top: 7px;
 	left: 3px;
 }

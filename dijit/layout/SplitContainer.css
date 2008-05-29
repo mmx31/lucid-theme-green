@@ -1,4 +1,4 @@
-.themed .dijitSplitContainerSizerH {
+.dijit .dijitSplitContainerSizerH {
 	background:url("../images/splitContainerSizerV.png") repeat-y #fff;
 	border:0;
 	border-left:1px solid #bfbfbf;
@@ -6,7 +6,7 @@
 	width:7px;
 }
 
-.themed .dijitSplitContainerSizerH .thumb {
+.dijit .dijitSplitContainerSizerH .thumb {
 	background:url("../images/splitContainerSizerV-thumb.png") no-repeat #ccc;
 	left:1px;
 	width:3px;
@@ -14,7 +14,7 @@
 	overflow: hidden;
 }
 
-.themed .dijitSplitContainerSizerV {
+.dijit .dijitSplitContainerSizerV {
 	background:url("../images/splitContainerSizerH.png") repeat-x #fff;
 	border:0;
 	border-top:1px solid #bfbfbf;
@@ -22,7 +22,7 @@
 	height:7px;
 }
 
-.themed .dijitSplitContainerSizerV .thumb {
+.dijit .dijitSplitContainerSizerV .thumb {
 	background:url("../images/splitContainerSizerH-thumb.png") no-repeat #ccc;
 	top:1px;
 	width:19px;
@@ -30,6 +30,6 @@
 	overflow: hidden;
 }
 
-.themed .dijitSplitter {
+.dijit .dijitSplitter {
 	border-color: #bfbfbf;
 }

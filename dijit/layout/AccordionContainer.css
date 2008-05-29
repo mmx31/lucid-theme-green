@@ -1,17 +1,17 @@
 /* Accordion */
 
-.themed .dijitAccordionPane {
+.dijit .dijitAccordionPane {
 	background-color: #e7e7e7;
 }
 
-.themed .dijitAccordionTitle {
+.dijit .dijitAccordionTitle {
 	background:#fafafa url("../images/titleBar.png") repeat-x bottom left;
 	border-top: 1px solid #bfbfbf;
 	padding: 6px 4px 6px 8px;
 	cursor:pointer;
 }
 
-.themed .dijitAccordionTitle-selected  {
+.dijit .dijitAccordionTitle-selected  {
 	background: #f9f9f9 url("../images/accordionItemActive.gif") bottom repeat-x;
 	font-weight: bold;
 	border-top: 1px solid #aaaaaa;
@@ -20,18 +20,18 @@
 	cursor: default;
 }
 
-.themed .dijitAccordionArrow {
+.dijit .dijitAccordionArrow {
 	background:url("../images/plusButton.gif") no-repeat;
 	width:15px;
 	height:15px;
 	margin-top:2px;
 }
 
-.themed .dijitAccordionTitle-selected .dijitAccordionArrow {
+.dijit .dijitAccordionTitle-selected .dijitAccordionArrow {
 	background:none;
 	margin-top:2px;
 }
 
-.themed .dijitAccordionBody {
+.dijit .dijitAccordionBody {
 	background: #fff;
 }
