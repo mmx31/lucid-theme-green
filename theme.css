@@ -44,7 +44,6 @@ TODO: there's alot of things in this that should be in /desktop.css instead of h
 .console {
 	border: 1px solid gray;
 	background-color: black;
-	color: white;
 }
 .consoleinput {
 	width: 90%;
