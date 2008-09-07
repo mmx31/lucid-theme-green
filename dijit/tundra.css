@@ -16,6 +16,7 @@
 @import url("../dijit.css");
 @import url("Common.css");
 
+@import url("layout/ContentPane.css");
 @import url("layout/TabContainer.css");
 @import url("layout/AccordionContainer.css");
 @import url("layout/SplitContainer.css");
@@ -24,14 +25,25 @@
 @import url("form/Button.css");
 @import url("form/Checkbox.css");
 @import url("form/RadioButton.css");
-@import url("form/TextArea.css");
 @import url("form/Slider.css");
 @import url("Tree.css");
 @import url("ProgressBar.css");
 @import url("TitlePane.css");
 @import url("Calendar.css");
+@import url("TimePicker.css");
 @import url("Toolbar.css");
 @import url("Dialog.css");
 @import url("Menu.css");
 @import url("Editor.css");
 @import url("ColorPalette.css");
+
+/* RTL files */
+@import url("../dijit_rtl.css");
+@import url("Calendar_rtl.css");
+@import url("Dialog_rtl.css");
+@import url("Editor_rtl.css");
+@import url("Menu_rtl.css");
+@import url("Tree_rtl.css");
+@import url("TitlePane_rtl.css");
+@import url("layout/TabContainer_rtl.css");
+@import url("form/Slider_rtl.css");

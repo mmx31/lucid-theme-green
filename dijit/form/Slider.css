@@ -33,11 +33,11 @@
 	outline:1px;
 }
 .dijit .dijitSliderFocused .dijitSliderBar {
-	border-color:#333;	
+	border-color:#888;	
 }
 
 .dijit_a11y .dijitSliderProgressBar {
-	background-color:#333 !important;
+	background-color:#888 !important;
 }
 
 .dijit .dijitSliderImageHandleH {
@@ -95,24 +95,37 @@
 	border-top-width: 1px;
 }
 
+.dijit .dijitSliderDecrementIconH,
+.dijit .dijitSliderDecrementIconV,
 .dijit .dijitSliderIncrementIconH,
 .dijit .dijitSliderIncrementIconV {
-	background:url('../images/arrowUp.png') no-repeat center center;
-	width:16px; height:16px;
-	cursor:pointer;
+	cursor: pointer;
+	background-image: url('../images/spriteArrows.png');
+	background-repeat: no-repeat;
+	margin: 5px;
+	height: 7px;
+	width: 7px;
+	font-size: 1px;
 }
-.dijit .dijitSliderIncrementIconH {
-	background-image:url('../images/arrowRight.png');
+.dj_ie6 .dijit .dijitSliderDecrementIconH,
+.dj_ie6 .dijit .dijitSliderDecrementIconV,
+.dj_ie6 .dijit .dijitSliderIncrementIconH,
+.dj_ie6 .dijit .dijitSliderIncrementIconV {
+	background-image: url('../images/spriteArrows.gif');
 }
 
-.dijit .dijitSliderDecrementIconH,
-.dijit .dijitSliderDecrementIconV {
-	width:16px;
-	height:16px;
-	cursor:pointer;
-	background:url('../images/arrowDown.png') no-repeat center center;
+.dijit .dijitSliderDecrementIconH {
+	background-position: -7px 0px;
 }
-.dijit .dijitSliderDecrementIconH { background-image:url('../images/arrowLeft.png'); }
+.dijit .dijitSliderIncrementIconH {
+	background-position: -14px 0px;
+}
+.dijit .dijitSliderDecrementIconV {
+	background-position: 0px 0px;
+}
+.dijit .dijitSliderIncrementIconV {
+	background-position: -21px 0px;
+}
 
 .dijit .dijitSliderButtonInner {
 	visibility:hidden;

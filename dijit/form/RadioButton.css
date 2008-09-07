@@ -1,11 +1,16 @@
 .dijit .dijitToggleButton .dijitRadio,
 .dijit .dijitToggleButton .dijitRadioIcon {
+	background-image: url('../images/checkmarkNoBorder.png');
+}
+
+.dj_ie6 .dijit .dijitToggleButton .dijitRadio,
+.dj_ie6 .dijit .dijitToggleButton .dijitRadioIcon {
 	background-image: url('../images/checkmarkNoBorder.gif');
 }
 
 .dijit .dijitRadio,
 .dijit .dijitRadioIcon	{		/* inside a toggle button */
-	background-image: url('../images/checkmark.gif'); /* checkbox sprite image */
+	background-image: url('../images/checkmark.png'); /* checkbox sprite image */
 	background-repeat: no-repeat;
 	width: 16px;
 	height: 16px;
@@ -13,16 +18,15 @@
 	padding: 0;
 }
 
+.dj_ie6 .dijit .dijitRadio,
+.dj_ie6 .dijit .dijitRadioIcon	{		/* inside a toggle button */
+	background-image: url('../images/checkmark.gif'); /* checkbox sprite image */
+}
+
 .dijit .dijitRadio,
 .dijit .dijitToggleButton .dijitRadioIcon {
 	/* unselected */
 	background-position: -112px;
-}
-
-.dijit .dijitRadioChecked,
-.dijit .dijitToggleButtonChecked .dijitRadioIcon {
-	/* selected */
-	background-position: -96px;
 }
 
 .dijit .dijitRadioDisabled {
@@ -35,15 +39,16 @@
 	background-position: -128px;
 }
 
-.dijit .dijitRadioHover,
-.dijit .dijitRadioFocused {
+.dijit .dijitRadioHover {
 	/* hovering over an unselected enabled radio button */
 	background-position: -176px;
 }
 
+.dijit .dijitRadioChecked,
 .dijit .dijitRadioCheckedHover,
-.dijit .dijitRadioCheckedFocused {
-	/* hovering over a selected enabled radio button */
-	background-position: -160px;
+.dijit .dijitToggleButtonChecked .dijitRadioIcon {
+	/* selected.  Since clicking a selected radio button doesn't change anything, there's
+	 * no hover effect on selected radio buttons.
+	 */
+	background-position: -96px;
 }
-

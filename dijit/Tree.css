@@ -27,11 +27,7 @@
 .dijit .dijitTreeContent {
     min-height: 18px;
     min-width: 18px;
-    margin-left:18px;
-    padding-top:3px;
-    padding-left:1px;
-}
-
+ }
 
 .dijit .dijitTreeExpand {
     width: 18px;
@@ -49,6 +45,10 @@
 .dijit .dijitTreeLabelFocused {
 	outline: 1px invert dotted;
 	background:#dde7f2;
+}
+
+.dijit .dijitTreeNodeHover {
+	background-color: #e2ebf2 !important;
 }
 
 .dijit .dijitTreeExpandoOpened {
@@ -70,7 +70,6 @@
 .dijit .dijitTreeIcon {
 	width: 16px;
 	height: 16px;
-	padding-right: 4px;
 }
 
 .dijit .dijitFolderOpened {
