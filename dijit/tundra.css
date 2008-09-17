@@ -13,7 +13,6 @@
 	Button.css contains classes for combobox, 
 	
 */
-@import url("../dijit.css");
 @import url("Common.css");
 
 @import url("layout/ContentPane.css");
