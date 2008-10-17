@@ -64,3 +64,8 @@
 .win-mc {
 	background-color: white;
 }
+
+.win-title {
+    padding-top: 2px;
+    padding-left: 5px;
+}
